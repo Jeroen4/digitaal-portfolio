@@ -126,6 +126,7 @@ aside{
 
 /*MEDIA QUERY*/
 
+<<<<<<< HEAD
 @media screen and (max-width: 500px;){
   body{
     margin-left: 0%;
@@ -138,5 +139,12 @@ aside{
   nav{
     width: 100%;
     font-size: 20px;
+=======
+@media screen and (min-width: 320px;) and (max-width: 592px;){
+  #wrapper{
+    width: 100%;
+    font-size: 10px;
+>>>>>>> 14289ee79205724166e8e975b6ee8c88df72f3d5
   }
+  
 }
