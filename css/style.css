@@ -5,8 +5,8 @@
 body{
   font-family:consolas, monaco;
   background-color:  #e6e6e6;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 13%;
+  margin-right: 13%;
   background-image: url("grfx/bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,7 +34,7 @@ a:hover{
   color: rgb(255, 100, 26);
 }
 nav{
-  max-width: 100%;
+  width: 100%;
   display: inline;
 }
 nav ul{
@@ -67,23 +67,21 @@ nav ul li:hover{
   margin-top: 5px;
 }
  main{
-  max-width: 50%;
   width:550px;
   display: flex;
   flex-direction: column;
+  flex: 1;
   padding: 5px;
   background-color: rgba(255, 255, 255, 0.5);
   margin-top: 5px;
 }
 .main-pages{
-  max-width: 100%;
   width: 673px;
 }
 aside{
-  max-width: 50%;
-  width: 550px;
   display: flex;
   flex-direction: column;
+  flex:1;
   padding: 5px;
   margin-top: 5px;
   background-color: rgba(255, 255, 255, 0.5);
@@ -126,25 +124,32 @@ aside{
 
 /*MEDIA QUERY*/
 
-<<<<<<< HEAD
-@media screen and (max-width: 500px;){
+@media screen and (max-width: 554px){
   body{
     margin-left: 0%;
     margin-right: 0%;
   }
+  #wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
   main{
-    font-size: 8px;
-    width: 50%;
+    font-size: 12px;
+    width: 100%;
+  }
+  aside{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
   nav{
     width: 100%;
     font-size: 20px;
-=======
-@media screen and (min-width: 320px;) and (max-width: 592px;){
-  #wrapper{
-    width: 100%;
-    font-size: 10px;
->>>>>>> 14289ee79205724166e8e975b6ee8c88df72f3d5
   }
-  
 }
